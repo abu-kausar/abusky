@@ -2,7 +2,9 @@
 ![1600x1200](/public/screenshot.png)
 ## Introduction
 
-abusky is a powerful and user-friendly weather forecasting web application designed to provide you with real-time weather updates and detailed forecasts. Whether you're planning your day or your week, abusky gives you all the critical weather information you need in one place.
+abusky is a powerful and user-friendly weather forecasting web application designed to provide you with real-time weather updates and detailed forecasts. Whether you're planning your day or your week, abusky gives you all the critical weather information you need in one place. 
+
+Live Link: https://abusky.vercel.app/
 
 ## Project Overview
 
@@ -15,6 +17,8 @@ Key Features:
 - 24-Hour Forecast: Hour-by-hour weather forecast to help you plan your day effectively.
 - 5-Day Forecast (3-hour Interval): Detailed forecasts in 3-hour increments to give you a clearer picture of the days ahead.
 - Sunrise & Sunset Times: Know the exact timing of sunrise and sunset for your location.
+
+NB: For the design, I follow the layout design of weatherio.
 
 ## Getting Started
 
@@ -49,3 +53,4 @@ Key Features:
 - Have to do responsive for all devices. Now it is okay for large device.
 - Have a plan to work with caching as here I used react-query for data fetching.
 - Have a plan to add button to get current location data. 
+- Have to do add a toggle button for dark and light theme
