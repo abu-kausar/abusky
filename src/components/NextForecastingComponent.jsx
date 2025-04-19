@@ -11,12 +11,12 @@ const NextForecastingComponent = ({ lat, lon }) => {
 
     return (
         <div>
-            <h1 className='text-white text-2xl my-6'>Next 120 hours long forecast (3 hours interval)</h1>
+            <h1 className='text-white text-xl 2xl:text-2xl my-6'>Next 120 hours long forecast (3 hours interval)</h1>
 
             <div className='w-full flex justify-evenly flex-wrap gap-5'>
                 {
                     data?.list?.map((day, index) => (
-                        <div key={index} className='flex flex-col text-center rounded-2xl text-white gap-3 px-5 py-4 bg-[#1d1c1f]'>
+                        <div key={index} className='flex flex-col text-center rounded-2xl text-white gap-2 2xl:gap-3 px-4 2xl:px-5 py-3 2xl:py-4 bg-[#1d1c1f]'>
                             <p>{formatDate(day?.dt)}</p>
                             <p>{formatTime(day?.dt)}</p>
                             <img 

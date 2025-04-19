@@ -27,7 +27,7 @@ function App() {
       <Header setLatLon={setLatLon} />
       <div className="bg-[#131214] flex-1 overflow-y-auto px-6 py-6">
         <div className="grid grid-cols-12 gap-6">
-          <div className="flex flex-col gap-6 col-span-4 rounded-4xl">
+          <div className="flex flex-col gap-4 2xl:gap-6 col-span-4 rounded-4xl">
             <NowWeather data={data} isLoading={isLoading} isError={isError} />
             <WeekForecastComponent lat={latLon?.lat} lon={latLon?.lon} />
           </div>
